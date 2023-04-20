@@ -1,0 +1,15 @@
+In computer programming, single-threading is the processing of one command at a time.
+In the formal analysis of the variables' semantics and process state,
+the term single threading can be used differently to mean "backtracking within a single thread",
+which is common in the functional programming community.
+
+Multithreading is mainly found in multitasking operating systems.
+Multithreading is a widespread programming and execution model that allows multiple threads to exist within the context of one process.
+These threads share the process's resources, but are able to execute independently.
+The threaded programming model provides developers with a useful abstraction of concurrent execution.
+Multithreading can also be applied to one process to enable parallel execution on a multiprocessing system.
+
+Multithreading libraries tend to provide a function call to create a new thread,
+which takes a function as a parameter.
+A concurrent thread is then created which starts running the passed function and ends when the function returns.
+The thread libraries also offer data synchronization functions.
